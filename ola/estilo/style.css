@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('../../imagens/praia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.oi {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+}
+
+.oi > div {
+    background-color: blue;
+    color: white;
+}
+
+main {
+    background-color: red;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+  
+}
